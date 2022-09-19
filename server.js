@@ -8,6 +8,7 @@ const PORT = 3400;
 app.use(express.static("public"));
 
 
+
 app.get('*', (req, res) => res.sendFile('/Users/kolbywolf/Coding/JS/Junior/digitalResume/error.html'));
 
 app.listen(PORT, () => {
